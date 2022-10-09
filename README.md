@@ -1,4 +1,4 @@
-[Live demo](https://blah.com)
+[Try It!](https://ascii-webcam-hujanais.vercel.app/)
 
 ## Overview
 
