@@ -1,0 +1,16 @@
+.header__container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  border: 1px solid green;
+  justify-content: center;
+  align-items: center;
+
+  .on_air {
+    color: green;
+  }
+
+  .off_air {
+    color: gray;
+  }
+}

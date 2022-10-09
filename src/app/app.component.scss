@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: linear-gradient(to bottom, #1c2c3d, #111b26);
+  color: white;
+
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.div__container {
+  display: flex;
+  flex-direction: column;
+
+  .row__goLive {
+    display: flex;
+    align-items: center;
+
+    div,
+    input {
+      margin: 1rem;
+    }
+  }
+
+  .div__video__container {
+    display: flex;
+    flex-direction: row;
+    overflow: wrap;
+    width: 100%;
+  }
+
+  .canvas__container {
+    border: 1px solid green;
+    margin: 0.1rem;
+    width: 640px;
+    height: 480px;
+  }
+}
+
+#videoElement {
+  background-color: #666;
+}
